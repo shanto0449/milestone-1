@@ -1,0 +1,32 @@
+p{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px rgb(199, 167, 116);
+    text-align: justify;
+    padding: 15px;
+    font-size: 30px;
+    
+}
+h2{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.div{
+    margin: 30px;
+    border: 10px;
+}
+#lorem{
+    color: blue;
+    padding: 20px;
+    box-shadow: 20px 20px purple;
+
+}
+.yellow{
+    background-color: yellow;
+}
+.img{
+    background-image: url('image/images.jfif');
+    background-size: cover;
+}
