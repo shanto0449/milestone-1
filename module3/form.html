@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal er Ma er pitha ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="tabile.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+
+            <form >
+                <label for="name">Your Name: <input id="name" type="text" placeholder="Your Name"></label>
+                
+                <label for="email">Your Email: <input id="email" type="email" placeholder="Your Email"></label>
+                <label for="phone">Your Phone <input id="phone" type="text" placeholder="Your Phone"></label>
+
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="chitoy"> 
+                        <input type="radio" id="chitoy" name="pitha">Chitoy
+                    </label>
+                    <label for="vapa"><input type="radio" id="vapa" name="pitha">Vapa</label>
+                    <label for="kusli"><input type="radio" id="kusli" name="pitha"> Kusli</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pic one or more vorta</legend>
+                    <label for="sutki"><input type="checkbox" id="sutki" name="vorta">Sutki</label>
+
+                    <label for="morij"><input type="checkbox" id="morij" name="vorta">Morij</label>
+
+                    <label for="sorisa"><input type="checkbox" id="sorisa" name="vorta">Sorisa</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>special Instruction</legend>
+                    <textarea name="" id="" cols="20" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit">
+
+            
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
